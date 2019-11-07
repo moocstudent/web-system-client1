@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>SSO Client1 - web-system-client1</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+<div style="text-align: center;margin-top: 100px;">
+    用户名:
+    <mark><p th:text="${webSsoUser.username}"></p></mark>
+    登陆成功!
+    <a href="/logout">Logout</a>
+</div>
+
+</body>
+
+
+</html>
